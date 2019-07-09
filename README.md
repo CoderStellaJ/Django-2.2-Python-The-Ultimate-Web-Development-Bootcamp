@@ -18,6 +18,7 @@ Apps: create app
 <br/>Static Files: collect static files
 
 #### Develop
-URLS: urls.py call views function and pass dictionary
+Model: create class in model.py. Attribute: Field; Function: invoked in html
+<br/>URLS: urls.py call views function and pass dictionary
 <br/>Views: create functions in views.py
 <br/>HTML: create .html in templates folder
