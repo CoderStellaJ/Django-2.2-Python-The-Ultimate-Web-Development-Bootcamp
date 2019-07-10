@@ -3,18 +3,19 @@
 
 ### Workflow
 #### Environment
-Virtualenv: create virtual env
-<br/>Django: pip install django
+Virtualenv: create virtual env  `>> virtualenv myvenv` `>> myvenv\Scripts\activate` `>> myvenv\Scripts\deactivate`
+<br/>Django: `>>pip install django`
 <br/>Static: create static folder in project main folder
 
 #### Basic Set Up
-Files: Create .gitignore in project folder
-<br/>Database: Open postgresql and set up a new database
+Files: Create .gitignore in project folder  https://gitignore.io/
+<br/>Database: Open postgresql and set up a new database  
+`>>chcp 1252` `>> psql -U postgres postgres` `>> CREATE DATABASE producthuntdb;`
 <br/>Setting: change database setting
 
 #### Develop Set Up
-Apps: create app
-<br/>Migrate: makemigrations and migrate
+Apps: create app  `>> python manage.py createapp <appname>`
+<br/>Migrate: makemigrations and migrate  `>> python manage.py makemigrations` `>> python manage.py migrate`
 <br/>Static Files: collect static files
 
 #### Develop
