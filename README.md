@@ -4,6 +4,7 @@
 ### Workflow
 #### Environment
 Virtualenv: create virtual env  `>> virtualenv myvenv` `>> myvenv\Scripts\activate` `>> myvenv\Scripts\deactivate`
+<br/>Pillow: for imagefield `>> pip install Pillow`
 <br/>Django: `>>pip install django`
 <br/>Static: create static folder in project main folder
 
